@@ -15,7 +15,7 @@ first number: 38.81
 second number: 2.5
 <br>38.81
 <br>\+ 2.50
-<br>\-\-\-\-\-
+<br>\-\-\-\-\-\-\-
 <br>41.31
  
 All numbers should be printed with 2 digits to the right of the decimal point. Everything 
@@ -42,10 +42,12 @@ Note that you need to catch all user input errors including:
 -----------
 Write an app that reads in a hex integer (data type int) from the bash command line.
 For each of the 4 bytes (i.e. each char) in the integer, the app will:
-  • Extract bits 4-3 from the byte. (Bits in a byte are numbered from the right starting 
-    with 0, going up to 7.)
-  • Shift the extracted bits to the right so that they can be used as a number. The value 
-    of this number will be 0, 1, 2, or 3.
+<ul>
+  <li>Extract bits 4-3 from the byte. (Bits in a byte are numbered from the right starting 
+    with 0, going up to 7.) </li>
+  <li>Shift the extracted bits to the right so that they can be used as a number. The value 
+    of this number will be 0, 1, 2, or 3.</li>
+</ul>
 The app will add up these four numbers and print out the sum.
 
 ---Lab 6---
